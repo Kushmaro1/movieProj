@@ -1,0 +1,19 @@
+input.ng-invalid{
+    border-right: 5px solid red;
+}
+input.ng-valid{
+    border-right: 5px solid green;
+}
+.center {
+    position: absolute;  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid grey;
+    padding: 10px;
+   }
+
+   .loginalign{
+        text-align: right;
+
+   }

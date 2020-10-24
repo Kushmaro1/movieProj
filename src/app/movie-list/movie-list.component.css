@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+
+}
+div{
+    text-align: right;
+}

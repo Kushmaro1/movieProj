@@ -1,0 +1,40 @@
+<div class="center">
+<div *ngIf="alert" class="alert alert-warning alert-dismissible fade show" role="alert">
+    <label>Movie submitted</label>
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+<form [formGroup]="addMovie" (ngSubmit)="collectData()">
+    <div class="form-group">
+      <h6 style="text-align: right;">שם הסרט</h6>
+      <input [readonly]="disableMessage" type="text" name="name"  maxlength="30" class="form-control"  formControlName="name" required>
+   
+    </div>
+    <div class="form-group">
+        <h6 >קטגוריה</h6>
+        <select class="form-control" style="text-align: right;" formControlName="category" required>
+          <option></option>
+          <option >דרמה</option>
+          <option>קומדיה</option>
+          <option>פעולה</option>
+          <option>מדע בדיוני</option>
+          <option>טבע</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <h6 >IMDB קישור לאתר</h6>
+        <input type="url" class="form-control"  formControlName="movieLink" required>
+      </div>
+      <div class="form-group">
+        <h6 >IMDB קישור לתמונה מאתר</h6>
+        <input type="url" class="form-control"  formControlName="pic" required>
+      </div>
+    
+ 
+    <button type="submit" (click)="something(addMovie.value)" [disabled]="!addMovie.valid" class="btn btn-primary">הוסף סרט</button>
+    <button type="reset" class="btn btn-primary">נקה הכל</button>
+    <button type="button" (click)="toList()" class="btn btn-primary">חזרה</button>
+
+  </form>
+</div>

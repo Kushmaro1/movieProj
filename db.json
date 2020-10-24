@@ -1,0 +1,39 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "The Zohan",
+      "category": "קומדיה",
+      "movieLink": "https://www.imdb.com/title/tt0960144/",
+      "pic": "https://m.media-amazon.com/images/M/MV5BMzE2MzEzNDc5M15BMl5BanBnXkFtZTcwMzYxOTA3MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "12 Angry Men",
+      "category": "דרמה",
+      "movieLink": "https://www.imdb.com/title/tt0050083/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=9T5J7492NX0534EQ6PEQ&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_5",
+      "pic": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pulp Fiction",
+      "category": "דרמה",
+      "movieLink": "https://www.imdb.com/title/tt0110912/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=9T5J7492NX0534EQ6PEQ&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_8",
+      "pic": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR1,0,182,268_AL_.jpg"
+    },
+    {
+      "name": "E.T.",
+      "category": "מדע בדיוני",
+      "movieLink": "https://www.imdb.com/title/tt0083866/",
+      "pic": "https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "id": 4
+    },
+    {
+      "name": "Die Hard",
+      "category": "פעולה",
+      "movieLink": "https://www.imdb.com/title/tt0095016/?ref_=nv_sr_srsg_0",
+      "pic": "https://m.media-amazon.com/images/M/MV5BZjRlNDUxZjAtOGQ4OC00OTNlLTgxNmQtYTBmMDgwZmNmNjkxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "id": 5
+    }
+  ]
+}

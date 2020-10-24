@@ -1,0 +1,16 @@
+.center {
+    position: absolute;  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+h6{
+    text-align: right;
+}
+div{
+    text-align: right;
+}
+select{
+    text-align: right;
+
+}
